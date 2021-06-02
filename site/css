@@ -1,1 +1,13 @@
 
+/* This CSS page applies visual styles to the HTML code. The syntax is different to HTML */
+
+/* this is a note
+the below section is setting the default font. This requires it to be installed on the device - if not installed, the browser will display in its own default font */
+@font-face {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/*
+CSS can be applied to elements, ids (use # , be unique in html), or classes (use . , can be applied to many different elements). 
+*/
