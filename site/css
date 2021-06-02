@@ -11,3 +11,29 @@ the below section is setting the default font. This requires it to be installed 
 /*
 CSS can be applied to elements, ids (use # , be unique in html), or classes (use . , can be applied to many different elements). 
 */
+
+
+
+        * {
+          box-sizing: border-box;
+        }
+        
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen {max-width: 993px;{
+          .column {
+            width: 33.33%;
+          }
+            
+        } 
